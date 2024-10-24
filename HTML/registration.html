@@ -1,0 +1,97 @@
+<!-- create a legendary form and attributes are
+     name,
+     age,
+     email,
+     phonenumber,
+     male or female(select),
+     states (datalist (10 states))
+     address (textarea)
+     registration date
+     time
+     select resume
+     submit buttion
+
+     make sure all field are filled
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+  </head>
+  <body>
+    <div>
+      <form action="" method="post">
+        <fieldset>
+          <legend>Enroll Your Details</legend>
+
+          <br />
+          <label for="">Name</label>
+          <br />
+          <input type="text" name="name" placeholder="Enter your name" required/>
+
+          <br />
+          <label for="">Age</label>
+          <br />
+          <input type="number" name="age" placeholder="Enter your age" required/>
+
+          <br />
+          <label for="">Email</label>
+          <br />
+          <input type="email" name="email" placeholder="Enter your email" required/>
+
+          <br />
+          <label for="">Phone Number</label>
+          <br />
+          <input type="number" name="phonenumber" placeholder="Enter your mobile" value="9999999999" readonly/>
+<br>
+<br>
+          <select name="gender" id="">
+            <option value="select">Select Gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="others">Others</option>
+          </select>
+          <br />
+          <br />
+          <legend>State</legend>
+          <input type="text" name="state" list="states" placeholder="Enter Your State"/>
+          <datalist id="states">
+            <option value="Karnataka"></option>
+            <option value="Tamil Nadu"></option>
+            <option value="Andra Pradesh"></option>
+            <option value="Goa"></option>
+            <option value="Kashmir"></option>
+            <option value="Maharastra"></option>
+            <option value="Bihar"></option>
+            <option value="Kerala"></option>
+          </datalist>
+
+          <br />
+          <legend>Address</legend>
+          <textarea name="address" id=""></textarea>
+          <br />
+          
+          <legend>Date Time</legend>
+          <input type="datetime-local" name="" id="" />
+
+          <br />
+          <legend>Resume</legend>
+          <input type="file" name="" id="" >
+          <br>
+
+          <legend>I agree your terms and conditions</legend>
+          <input type="checkbox" name="" id="">
+
+          <br>
+          <button type="submit">Submit</button>
+
+
+        </fieldset>
+       
+      </form>
+    </div>
+  </body>
+</html>

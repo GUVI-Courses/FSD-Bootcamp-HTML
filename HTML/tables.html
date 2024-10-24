@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        table,thead,tbody,td,th{
+            border: 1px solid;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Age </th>
+        </thead>
+        <tbody>
+           <tr>
+            <td>Rohan</td>
+            <td>Shetty</td>
+            <td>45</td>
+           </tr>
+           <tr>
+            <td>Rohit</td>
+            <td>Shetty</td>
+            <td>45</td>
+           </tr>
+           <tr>
+            <td>ARK</td>
+            <td>Shetty</td>
+            <td>45</td>
+           </tr>
+        </tbody>
+    </table>
+
+    <br>
+    <br>
+    <br>
+
+    <p>Colspan</p>
+    <table style="width: 25%;">
+
+        <tr>
+            <th colspan="3">Name</th>
+            <th colspan="4">Telephone</th>
+        </tr>
+        <tr>
+            <td>Bill</td>
+            <td>Gates</td>
+            <td>US</td>
+            <td>9874563210</td>
+            <td>9874563210</td>
+            <td>9874563210</td>
+            <td>9874563210</td>
+        </tr>
+        <tr>
+            <td>Ark</td>
+            <td>code</td>
+            <td>INDIA</td>
+            <td>9874563210</td>
+            <td>9874563210</td>
+            <td>9874563210</td>
+            <td>9874563210</td>
+        </tr>
+        <tr>
+            <td>rohan</td>
+            <td>das</td>
+            <td>AR</td>
+            <td>9874563210</td>
+            <td>9874563210</td>
+            <td>9874563210</td>
+            <td>9874563210</td>
+        </tr>
+
+    </table>
+<br>
+<br>
+<br>
+<br>
+<p>Rowspans</p>
+<table>
+    <tr>
+        <th>Day</th>
+        <th>Event</th>
+    </tr>
+
+    <tr>
+        <td rowspan="2">Monday</td>
+        <td>Meeting</td>
+
+    </tr>
+    <tr>
+        <td>Workshop</td>
+    </tr>
+
+    <tr>
+        <td>Tuesday</td>
+        <td>Conference</td>
+    </tr>
+
+    <tr>
+        <td rowspan="3"> Wednesday</td>
+        <td>Seminar</td>
+    </tr>
+    <tr><td>Presentation</td></tr>
+    <tr><td>Code review</td></tr>
+    <tr>
+        <td>Thursday</td>
+        <td>Conference</td>
+      
+    </tr>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <hr />
+    <center><h1>Forms</h1></center>
+    <hr />
+
+    <div>
+      <input type="text" />
+      <input type="number" />
+      <input type="email" placeholder="Enter you gmail" />
+      <input type="checkbox" />
+      <input type="button" value="submit" />
+    </div>
+    <hr />
+    <div>
+      <input type="date" />
+      <input type="time" />
+      <input type="color" />
+      <input type="file" />
+      <input type="hidden" />
+    </div>
+
+    <hr />
+    <div>
+      <label for="">Select Gender</label>
+      <select name="gender" id="">
+        <option>Select Gender</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select>
+
+      <label for="">Enter the address</label>
+      <textarea name="" id="" rows="5" cols="20"></textarea>
+
+      <button type="button" onclick="alert('You Clicked me')">Click me</button>
+    </div>
+    <hr />
+    <div>
+      <form action="" method="get">
+        <fieldset>
+          <legend>Register</legend>
+          <input type="text" name="name" id="name" />
+          <input type="number" name="age" id="age" />
+          <button type="submit">Submit</button>
+        </fieldset>
+      </form>
+    </div>
+
+    <!-- Data List -->
+<hr>
+<form action="">
+    <input type="text" list="states" placeholder="Enter Your State">
+    <datalist id="states">
+        <option value="Karnataka"></option>
+        <option value="Tamil Nadu"></option>
+        <option value="Andra Pradesh"></option>
+        <option value="Goa"></option>
+        <option value="Kashmir"></option>
+        <option value="Maharastra"></option>
+        <option value="Bihar"></option>
+        <option value="Kerala"></option>
+    </datalist>
+</form>
+<hr>
+
+<input type="text" value="786453">
+
+<label for="">Choose the car</label>
+<select name="cars" id="cars">
+    <optgroup label="Premium">
+    <option value="">Verna</option>
+    <option value="">BMW</option>
+    <option value="">Ferrarri</option>
+    <option value="">XUV</option>
+    
+    </optgroup>
+    <optgroup label="Advanced"> 
+    <option value="">Tesla</option>
+    <option value="">XYZ</option>
+   
+    
+    </optgroup>
+</select>
+
+<input type="range">
+
+  </body>
+</html>
